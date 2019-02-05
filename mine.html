@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>猫眼 我的</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/mine.css">
+</head>
+<body>
+    <!-- ----------header---------------- -->
+    <header>
+        <a href="index.html">
+            <img src="img/mine_back.jpg" alt="">
+        </a>
+        猫眼电影
+    </header>
+    <!-- ------------nav------------------ -->
+    <nav>
+     
+      <!-- 美团 -->
+      <div class="reying" id="meituan" style="border-bottom:0.02rem solid #d84f49;color:#a75655;">美团账号登录</div>
+      <!-- 手机 -->
+      <div class="reying" id="shouji" style="border-bottom:0.02rem solid #f2f2f2;">手机验证登录</div>
+      
+    </nav>
+
+   <!-- ---------------section------------- -->
+    <section>
+
+        <!-- 美团 -->
+        <!-- 美团 -->
+        <div class="mine_secbox" id="mine_secbox_meituan" style="display:block;">
+            <!-- input -->
+            <div class="inputwrap">
+                <div class="input_one_wrap input_wrap">
+                    <input id="mine_input_zhanghao" type="text" placeholder="账户名/手机号/Email">
+                </div>
+                <div class="input_wrap">
+                    <input  id="mine_input_mima" type="text" placeholder="请输入您的密码">
+                </div>
+            </div>
+            <!-- 登录 -->
+            <div class="mine_denglu">
+                <div class="mine_denglu_content">登录</div>
+            </div>
+            <p class="lijizhuce">
+                <span>立即注册</span>
+                <span>找回密码</span>
+            </p>
+            <p class="mine_copy">&copy; 猫眼电影 客服电话：<span>400-670-5335</span></p>
+        </div>
+
+        <!-- 手机 -->
+        <!-- 手机 -->
+        <div class="mine_secbox"  id="mine_secbox_shouji">
+                        <!-- input -->
+                        <div class="inputwrap">
+                            <div class="input_one_wrap input_wrap">
+                                <input id="mine_input_shouji" type="text" placeholder="请输入手机号">
+                                <div id="shouji_yanzhengma">获取验证码</div>
+                            </div>
+                            <div class="input_wrap">
+                                <input  id="mine_input_yzm" type="text" placeholder="请输入手机验证码">
+                            </div>
+                        </div>
+                        <!-- 登录 -->
+                        <div class="mine_denglu">
+                            <div class="mine_denglu_content mine_denglu_content_shouji">登录</div>
+                        </div>
+                        <p class="lijizhuce">
+                            <span>立即注册</span>
+                            <span>找回密码</span>
+                        </p>
+                        <p class="mine_copy">&copy; 猫眼电影 客服电话：<span>400-670-5335</span></p>
+            
+        </div>
+
+    </section>
+
+    <script src="js/mine.js"></script>
+</body>
+</html>
